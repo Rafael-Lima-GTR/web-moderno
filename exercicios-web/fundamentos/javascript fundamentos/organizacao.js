@@ -4,6 +4,6 @@ console.log(
 {
     {
         console.log("Olá");
-        console.log('Mundo!') // Padrão do curso 
+        console.log('Mundo!'); // Padrão do curso 
     }
 }
