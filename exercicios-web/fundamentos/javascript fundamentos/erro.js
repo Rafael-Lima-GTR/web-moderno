@@ -8,17 +8,17 @@ function tratarErroELancar(erro) {
         msg: erro.message,
         date: new Date
     }
-}
+};
 
 function imprimirNomeGritado(obj) {
     try {
-        console.log(obj.name.toUpperCase() + '!!!')
+        console.log(obj.name.toUpperCase() + '!!!');
     } catch (e) {
-        tratarErroELancar(e)
+        tratarErroELancar(e);
     } finally {
-        console.log('final')
+        console.log('final');
     }
-}
+};
 
-const obj = { nome: 'Roberto' }
-imprimirNomeGritado(obj)
+const obj = { nome: 'Roberto' };
+imprimirNomeGritado(obj);
