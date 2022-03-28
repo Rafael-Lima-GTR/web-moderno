@@ -6,4 +6,4 @@ function criarPessoa() {
     }
 }
 
-console.log(criarPessoa())
+console.log(criarPessoa());
